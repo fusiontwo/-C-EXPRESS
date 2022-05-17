@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int 합계 = 0;
-	printf("%d \n", 합계);
+	int sum = 0;
+	printf("%d \n", sum);
 	return 0;
 }
