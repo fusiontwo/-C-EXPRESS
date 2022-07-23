@@ -1,22 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h> //int rnad(void)
+#include <stdlib.h> //int rand(void)
 #include <time.h> // time_t time(time_t*timer)
 
 int main(void)
 {
 	int h, c;
-	printf("¼±ÅÃÇÏ½Ã¿À(1: °¡À§ 2: ¹ÙÀ§ 3: º¸)");
+	printf("ì„ íƒí•˜ì‹œì˜¤(1: ê°€ìœ„ 2: ë°”ìœ„ 3: ë³´)");
 	scanf("%d", &h);
 
 	srand(time(NULL));
 	c = (rand() % 3) + 1;
 
 	if ((h == 1 && c == 1) || (h == 2 && c == 2) || (h == 3 && c == 3))
-		printf("ÄÄÇ»ÅÍ´Â %d¸¦ ¼±ÅÃÇß°í, ºñ°åÀ½", c);
+		printf("ì»´í“¨í„°ëŠ” %dë¥¼ ì„ íƒí–ˆê³ , ë¹„ê²¼ìŒ", c);
 	else if ((h == 1 && c == 3) || (h == 2 && c == 1) || (h == 3 && c == 2))
-		printf("ÄÄÇ»ÅÍ´Â %d¸¦ ¼±ÅÃÇß°í, »ç¿ëÀÚ°¡ ÀÌ°åÀ½", c);
+		printf("ì»´í“¨í„°ëŠ” %dë¥¼ ì„ íƒí–ˆê³ , ì‚¬ìš©ìê°€ ì´ê²¼ìŒ", c);
 	else
-		printf("ÄÄÇ»ÅÍ´Â %d¸¦ ¼±ÅÃÇß°í, ÄÄÇ»ÅÍ°¡ ÀÌ°åÀ½", c);
+		printf("ì»´í“¨í„°ëŠ” %dë¥¼ ì„ íƒí–ˆê³ , ì»´í“¨í„°ê°€ ì´ê²¼ìŒ", c);
 	
 	return 0;
 }
