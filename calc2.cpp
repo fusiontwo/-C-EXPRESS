@@ -1,11 +1,11 @@
-// °£´ÜÇÑ »ê¼ú °è»ê±â ÇÁ·Î±×·¥
+// ê°„ë‹¨í•œ ì‚°ìˆ  ê³„ì‚°ê¸° í”„ë¡œê·¸ë¨
 #include <stdio.h>
 int main(void)
 {
 	char op;
 	int x, y, result;
 
-	printf("¼ö½ÄÀ» ÀÔ·ÂÇÏ½Ã¿À(¿¹: 2 + 5): \n");
+	printf("ìˆ˜ì‹ì„ ì…ë ¥í•˜ì‹œì˜¤(ì˜ˆ: 2 + 5): \n");
 	printf(">>");
 	scanf("%d %c %d", &x, &op, &y);
 
@@ -27,7 +27,7 @@ int main(void)
 		result = x % y;
 		break;
 	default:
-		printf("Áö¿øµÇÁö ¾Ê´Â ¿¬»êÀÚÀÔ´Ï´Ù. \n");
+		printf("ì§€ì›ë˜ì§€ ì•ŠëŠ” ì—°ì‚°ìì…ë‹ˆë‹¤. \n");
 		break;
 	}
 	printf("%d %c %d = %d \n", x, op, y, result);
