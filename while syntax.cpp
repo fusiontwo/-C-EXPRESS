@@ -4,11 +4,11 @@ int main(void)
 {
 	int i = 0;
 
-	while (i < 5)  // ¹Ýº¹ Á¶°Ç
+	while (i < 5)  // ë°˜ë³µ ì¡°ê±´
 	{
 		printf("Hello World! \n");
 		i++;
-	}                              // ¹Ýº¹ ³»¿ë(ºí·Ï)
+	}                              // ë°˜ë³µ ë‚´ìš©(ë¸”ë¡)
 
 	return 0;
 }
