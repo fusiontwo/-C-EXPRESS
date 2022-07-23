@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	printf("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ë¬¸ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	int munja = getchar();
 
 	switch (munja)
