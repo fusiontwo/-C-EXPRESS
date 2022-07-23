@@ -5,7 +5,7 @@ int main(void)
 	int n;
 
 	printf("====================\n");
-	printf("    n  nÀÇ Á¦°ö \n");
+	printf("    n  nì˜ ì œê³± \n");
 	printf("====================\n");
 
 	n = 1;
