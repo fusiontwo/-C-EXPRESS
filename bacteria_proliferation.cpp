@@ -13,7 +13,7 @@ int main(void)
 	{
 		hours += 1;
 		current *= 4;
-		printf("%d½Ã°£ ÈÄÀÇ ¼¼±ÕÀÇ¼ö=%f\n", hours, current);
+		printf("%dì‹œê°„ í›„ì˜ ì„¸ê· ì˜ ìˆ˜=%f\n", hours, current);
 	}
 	
 	return 0;
