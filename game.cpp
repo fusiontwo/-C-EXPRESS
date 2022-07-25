@@ -1,10 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
-	int answer = 59; // 정답
+	int answer; // 정답
 	int guess;
 	int tries = 0;
+
+	answer = rand() % 100;
+
 	// 반복 구조
 	do {
 		printf("정답을 추측하여 보시오: ");
