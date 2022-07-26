@@ -11,6 +11,6 @@ int main(void)
 		i++;
 		sum += i;
 	}
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕÀÌ %dÀÔ´Ï´Ù.", i-1, sum-i);
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ í•©ì´ %dì…ë‹ˆë‹¤.", i-1, sum-i);
 	return 0;
 }
