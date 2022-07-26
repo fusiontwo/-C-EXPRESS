@@ -5,7 +5,7 @@ int main(void)
 	int i, height;
 	
 	do {
-		printf("¸·´ëÀÇ ³ôÀÌ(Á¾·á: -1): ");
+		printf("ë§‰ëŒ€ì˜ ë†’ì´(ì¢…ë£Œ: -1): ");
 		scanf("%d", &height);
 		for (i = 1; i <= height; i++)
 			printf("*");
