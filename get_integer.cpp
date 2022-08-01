@@ -1,7 +1,7 @@
 int get_integer()
 {
 	int value;
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &value);
 	return value;
 }
