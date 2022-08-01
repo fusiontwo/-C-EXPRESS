@@ -2,14 +2,14 @@
 
 void happyBirthday()
 {
-	printf("»ıÀÏÃàÇÏ ÇÕ´Ï´Ù! \n");
-	printf("»ıÀÏÃàÇÏ ÇÕ´Ï´Ù! \n");
-	printf("»ç¶ûÇÏ´Â Ä£±¸ÀÇ ");
-	printf("»ıÀÏÃàÇÏ ÇÕ´Ï´Ù! \n");
+	printf("ìƒì¼ì¶•í•˜ í•©ë‹ˆë‹¤! \n");
+	printf("ìƒì¼ì¶•í•˜ í•©ë‹ˆë‹¤! \n");
+	printf("ì‚¬ë‘í•˜ëŠ” ì¹œêµ¬ì˜ ");
+	printf("ìƒì¼ì¶•í•˜ í•©ë‹ˆë‹¤! \n");
 }
 
 int main(void)
 {
-	happyBirthday(5);
+	happyBirthday();
 	return 0;
 }
