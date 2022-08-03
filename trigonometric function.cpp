@@ -1,4 +1,4 @@
-// �ﰢ �Լ� ���̺귯��
+// 삼각 함수 라이브러리
 #include <math.h>
 #include <stdio.h>
 
