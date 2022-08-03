@@ -5,7 +5,7 @@
 int main(void)
 {
 	system("dir");
-	printf("¾Æ¹« Å°³ª Ä¡¼¼¿ä\n");
+	printf("ì•„ë¬´ í‚¤ë‚˜ ì¹˜ì„¸ìš”\n");
 	_getch();
 	system("cls");
 
