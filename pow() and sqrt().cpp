@@ -3,8 +3,8 @@
 
 int main(void)
 {
-	printf("10ÀÇ 3½ÂÀº %.0f.\n", pow(10.0, 3.0));
-	printf("16ÀÇ Á¦°ö±ÙÀº %.0f.\n", sqrt(16));
+	printf("10ì˜ 3ìŠ¹ì€ %.0f.\n", pow(10.0, 3.0));
+	printf("16ì˜ ì œê³±ê·¼ì€ %.0f.\n", sqrt(16));
 
 	return 0;
 }
