@@ -1,7 +1,37 @@
-int get_integer()
+#include <stdio.h>
+
+int get_integer();
+double get_double();
+char get_char();
+
+int main(void)
 {
-	int value;
-	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
-	scanf("%d", &value);
-	return value;
+	double f, g;
+	f = get_double();
+	g = get_double();
+	printf("½Ç¼öÀÇ ÇÕ=%lf\n", f + g);
+	return 0;
+}
+
+int get_integer() {
+	int n;
+	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	scanf("%d", &n);
+	return n;
+}
+
+double get_double()
+{
+	double n;
+	printf("½Ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	scanf("%lf", &n);
+	return n;
+}
+
+char get_char()
+{
+	char n;
+	printf("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	scanf("%c", &n);
+	return n;
 }
