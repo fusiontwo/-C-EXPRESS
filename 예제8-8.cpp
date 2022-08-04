@@ -10,7 +10,7 @@ int main(void)
 
 	for (angle = 0; angle <= 180; angle += 10)
 	{
-		printf("sin(%lf)ÀÇ °ªÀº %lf \n", angle, sin_degree(angle));
+		printf("sin(%lf)ì˜ ê°’ì€ %lf \n", angle, sin_degree(angle));
 	}
 	return 0;
 }
