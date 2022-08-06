@@ -3,7 +3,7 @@
 extern unsigned random_i(void);
 extern double random_f(void);
 
-extern int MOD; // ¿¬°áµÈ Àü¿ª º¯¼ö
+extern int MOD; // ì—°ê²°ëœ ì „ì—­ ë³€ìˆ˜
 
 int main(void)
 {
