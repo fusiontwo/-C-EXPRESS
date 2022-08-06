@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-int factorial(int n)
+long factorial(int n)
 {
-	long result = 1;
-
-	for (int i = 1; i <= n; i++)
-		result *= i;  // result = result * i
-	return result;
+	printf("factorial(%d)\n", n);
+	
+	if (n == 1) return 1;
+	else return n * factorial(n - 1);
 }
 
 int main(void)
 {
 	int n;
-	printf("알고 싶은 팩토리얼 값은? ");
+	printf("정수를 입력하시오: ");
 	scanf("%d", &n);
-	printf("%d!의 값은 %d입니다. \n", n, factorial(n));
-	return 0;
+	printf("%d!은 %d입니다. \n", n, factorial(n));
+	return(0);
 }
