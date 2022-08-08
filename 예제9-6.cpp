@@ -4,9 +4,9 @@ int power(int base, int power_raised);
 int main(void)
 {
 	int base, power_raised;
-	printf("¹Ø¼ö: ");
+	printf("ë°‘ìˆ˜: ");
 	scanf("%d", &base);
-	printf("Áö¼ö: ");
+	printf("ì§€ìˆ˜: ");
 	scanf("%d", &power_raised);
 	printf("%d^%d = %d", base, power_raised, power(base, power_raised));
 }
