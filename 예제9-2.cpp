@@ -8,7 +8,7 @@ int main(void)
 {
 	int num = 0;
 
-	srand((unsigned)time(NULL)); // ³­¼ö ½Ãµå°ª ¼³Á¤
+	srand((unsigned)time(NULL)); // ë‚œìˆ˜ ì‹œë“œê°’ ì„¤ì •
 	get_dice_face(num);
 }
 	
