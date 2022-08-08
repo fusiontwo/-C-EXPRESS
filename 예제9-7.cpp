@@ -5,7 +5,7 @@ int show_digit(int x);
 int main(void)
 {
 	int n;
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &n);
 
 	show_digit(n);
