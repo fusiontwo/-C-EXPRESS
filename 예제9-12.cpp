@@ -4,7 +4,7 @@ int fib(int n);
 int main(void)
 {
 	int n,i;
-	printf("nÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("nì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &n);
 	for (i = 0; i <= n; i++)
 		printf("fib(%d) = %d\n", i, fib(i));
