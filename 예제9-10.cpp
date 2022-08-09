@@ -4,7 +4,7 @@ int main(void)
 {
 	double n, result;
 	
-	printf("nÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("nì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%lf", &n);
 
 	result = recursive(n);
