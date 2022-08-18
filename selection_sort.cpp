@@ -13,8 +13,8 @@ int main(void)
 		for (j = i + 1; j < SIZE; j++)
 			if (list[j] < list[least])
 				least = j;
-		temp = list[i]; //temp¿¡ list[i] °ª ÀúÀå  
-		list[i] = list[least]; //list[least]¸¦ list[i]¿¡ º¹»ç
+		temp = list[i]; //tempÂ¿Â¡ list[i] //tempì— list[i] ê°’ ì €ìž¥  
+		list[i] = list[least]; //list[least]ë¥¼ list[i]ì— ë³µì‚¬
 		list[least] = temp;
 	}
 	for (i = 0; i < SIZE; i++)
