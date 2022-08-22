@@ -9,10 +9,10 @@ int main(void)
 	{
 		if (a[i] != b[i])
 		{
-			printf("´Ù¸¨´Ï´Ù.\n");
+			printf("ë‹¤ë¦…ë‹ˆë‹¤.\n");
 			break;
 		}
 	}
-	printf("°°½À´Ï´Ù.");
+	printf("ê°™ìŠµë‹ˆë‹¤.\n");
 	return 0;
 }
