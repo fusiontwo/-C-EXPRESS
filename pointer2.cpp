@@ -5,7 +5,7 @@ int main(void)
 	int x = 10, y = 20;
 	int *p;
 
-	p = &x;  // p´Â x¸¦ °¡¸®Å²´Ù.
+	p = &x;  // pëŠ” xë¥¼ ê°€ë¦¬í‚¨ë‹¤.
 	printf("p = %d\n", p);
 	printf("*p = %d\n\n", *p);
 
