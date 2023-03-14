@@ -2,6 +2,7 @@
 
 int main(void)
 {
-	printf("Hello World!");
+	printf("Hello, C!\n");
+
 	return 0;
 }
